@@ -7,7 +7,7 @@ Proyecto creado para la prueba de Corrales y Animales
 
 ## MicroServicio
 
-Este proyecto esta creado con .NetCore 5 y base de datos SQL Server
+Este proyecto Siigo.Microservice.Corrales esta creado con .NetCore 5 y base de datos SQL Server
 
 ## Base de datos
 
