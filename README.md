@@ -21,7 +21,7 @@ Este proyecto esta creado con .NetCore 5  y principios SOLID
 - Command
 - Inyección de Dependencias 
 
-##Tecnologias
+## Tecnologias
 - .NetCore 5
 - Fluent(Validaciones de los datos dentro de los comandos)
 - Serilog(Centralizacion de Logs)
