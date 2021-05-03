@@ -1,8 +1,13 @@
-# Prueba Angular Jhonatan Gonzalez
+# Prueba Jhonatan Gonzalez
 
 ## Notas
 
-Proyecto creado para entrevista angular y .net se realiza un pequeño crud con una tabla ejemplo  ya que por tiempo  no pude realizar la de clientes , pero el proyecto esta funcional solo que la entidad la cual se realiza el crud es EmployeeDetails
+Proyecto creado para la prueba de Corrales y Animales 
+
+
+## MicroServicio
+
+Este proyecto esta creado con .NetCore 5 y base de datos SQL Server
 
 ## Base de datos
 
