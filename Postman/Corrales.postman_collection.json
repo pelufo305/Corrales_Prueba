@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "6d65c972-25cb-44be-928c-1ab90bf0f823",
+		"name": "Corrales",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Lista Corrales",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Im5PbzNaRHJPRFhFSzFqS1doWHNsSFJfS1hFZyJ9.eyJhdWQiOiI4OTg0MWIxZS1lZWY2LTRmN2YtODA0ZS0yZjgwMTQ5ZDgzZGMiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vM2E3NDc5ZGItZDlmZi00ZTBiLTlkMGEtMzgwYTVlNzE0ZjZmL3YyLjAiLCJpYXQiOjE2MTYwOTY3NTMsIm5iZiI6MTYxNjA5Njc1MywiZXhwIjoxNjE2MTAwNjUzLCJhaW8iOiJBVFFBeS84VEFBQUFyL3kzaWRlM0JpQ3E0UTZIcmlNVXVNakNLek5WMGJsakMwRndnNzVrUU14c0g3V2ZtY0Y0WXBURm1UZFo2a1k5IiwibmFtZSI6Ikpob25hdGFuIFN0ZXZlbiBHb256YWxleiIsIm5vbmNlIjoiNDc2ODlkNjYtNjg2YS00YzljLTlhOTEtMGRiY2I0YzhlN2UwIiwib2lkIjoiYzgxMDlkOGMtNGUxMy00OTQyLTg0N2MtMWUxZTBjN2YxZDA4IiwicHJlZmVycmVkX3VzZXJuYW1lIjoiZ29uejExMTQ5OUBzaWlnby5jb20iLCJyaCI6IjAuQUFBQTIzbDBPdl9aQzA2ZENqZ0tYbkZQYng0YmhJbjI3bjlQZ0U0dmdCU2RnOXcwQUljLiIsInN1YiI6IlZXaVBOdnVTc0FrdzR4UVRnc2JndjhqaEJIMHNSSS15aXFIdzdNNExGNkkiLCJ0aWQiOiIzYTc0NzlkYi1kOWZmLTRlMGItOWQwYS0zODBhNWU3MTRmNmYiLCJ1dGkiOiJUUXJqNnJBemgwcUxjdGMwVm1nR0FBIiwidmVyIjoiMi4wIn0.TwkysbWJ58vG7_4snUSjrv78oqbfEUzfButUwCn_PIHjT9wZLbRK2VScLNNTMNKjL9lUV7p3YAOeDSMwkSb3p002BJZJS3-AYUepd8HnNOcej3jfPWGaYb1uZT4sV8s3eZyBHDWPjoEGjDfdKI-iyU8CHUtxLMrdXbyBjEKko1IftoNZLzmn5yN8ZwVzPjLzFYNuhdhcYQPZgRY8RIgkRVR43lNHMzMBCn08hnIDpcoslGaozTiYdEDwNzacva8UZInu5_exEt2MJKN_W48C83NuyDMJdcgqnII-3bSkdFpHqjz-YrPHwzuxEXNHS7ITQJJBrExfTjpwLl2wuFT9rQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/v1/corral",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"corral"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Promedio Edad Corrales",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Im5PbzNaRHJPRFhFSzFqS1doWHNsSFJfS1hFZyJ9.eyJhdWQiOiI4OTg0MWIxZS1lZWY2LTRmN2YtODA0ZS0yZjgwMTQ5ZDgzZGMiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vM2E3NDc5ZGItZDlmZi00ZTBiLTlkMGEtMzgwYTVlNzE0ZjZmL3YyLjAiLCJpYXQiOjE2MTYwOTY3NTMsIm5iZiI6MTYxNjA5Njc1MywiZXhwIjoxNjE2MTAwNjUzLCJhaW8iOiJBVFFBeS84VEFBQUFyL3kzaWRlM0JpQ3E0UTZIcmlNVXVNakNLek5WMGJsakMwRndnNzVrUU14c0g3V2ZtY0Y0WXBURm1UZFo2a1k5IiwibmFtZSI6Ikpob25hdGFuIFN0ZXZlbiBHb256YWxleiIsIm5vbmNlIjoiNDc2ODlkNjYtNjg2YS00YzljLTlhOTEtMGRiY2I0YzhlN2UwIiwib2lkIjoiYzgxMDlkOGMtNGUxMy00OTQyLTg0N2MtMWUxZTBjN2YxZDA4IiwicHJlZmVycmVkX3VzZXJuYW1lIjoiZ29uejExMTQ5OUBzaWlnby5jb20iLCJyaCI6IjAuQUFBQTIzbDBPdl9aQzA2ZENqZ0tYbkZQYng0YmhJbjI3bjlQZ0U0dmdCU2RnOXcwQUljLiIsInN1YiI6IlZXaVBOdnVTc0FrdzR4UVRnc2JndjhqaEJIMHNSSS15aXFIdzdNNExGNkkiLCJ0aWQiOiIzYTc0NzlkYi1kOWZmLTRlMGItOWQwYS0zODBhNWU3MTRmNmYiLCJ1dGkiOiJUUXJqNnJBemgwcUxjdGMwVm1nR0FBIiwidmVyIjoiMi4wIn0.TwkysbWJ58vG7_4snUSjrv78oqbfEUzfButUwCn_PIHjT9wZLbRK2VScLNNTMNKjL9lUV7p3YAOeDSMwkSb3p002BJZJS3-AYUepd8HnNOcej3jfPWGaYb1uZT4sV8s3eZyBHDWPjoEGjDfdKI-iyU8CHUtxLMrdXbyBjEKko1IftoNZLzmn5yN8ZwVzPjLzFYNuhdhcYQPZgRY8RIgkRVR43lNHMzMBCn08hnIDpcoslGaozTiYdEDwNzacva8UZInu5_exEt2MJKN_W48C83NuyDMJdcgqnII-3bSkdFpHqjz-YrPHwzuxEXNHS7ITQJJBrExfTjpwLl2wuFT9rQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/v1/corral/promedio/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"corral",
+						"promedio",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lista Tipos de Animales",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Im5PbzNaRHJPRFhFSzFqS1doWHNsSFJfS1hFZyJ9.eyJhdWQiOiI4OTg0MWIxZS1lZWY2LTRmN2YtODA0ZS0yZjgwMTQ5ZDgzZGMiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vM2E3NDc5ZGItZDlmZi00ZTBiLTlkMGEtMzgwYTVlNzE0ZjZmL3YyLjAiLCJpYXQiOjE2MTYwOTY3NTMsIm5iZiI6MTYxNjA5Njc1MywiZXhwIjoxNjE2MTAwNjUzLCJhaW8iOiJBVFFBeS84VEFBQUFyL3kzaWRlM0JpQ3E0UTZIcmlNVXVNakNLek5WMGJsakMwRndnNzVrUU14c0g3V2ZtY0Y0WXBURm1UZFo2a1k5IiwibmFtZSI6Ikpob25hdGFuIFN0ZXZlbiBHb256YWxleiIsIm5vbmNlIjoiNDc2ODlkNjYtNjg2YS00YzljLTlhOTEtMGRiY2I0YzhlN2UwIiwib2lkIjoiYzgxMDlkOGMtNGUxMy00OTQyLTg0N2MtMWUxZTBjN2YxZDA4IiwicHJlZmVycmVkX3VzZXJuYW1lIjoiZ29uejExMTQ5OUBzaWlnby5jb20iLCJyaCI6IjAuQUFBQTIzbDBPdl9aQzA2ZENqZ0tYbkZQYng0YmhJbjI3bjlQZ0U0dmdCU2RnOXcwQUljLiIsInN1YiI6IlZXaVBOdnVTc0FrdzR4UVRnc2JndjhqaEJIMHNSSS15aXFIdzdNNExGNkkiLCJ0aWQiOiIzYTc0NzlkYi1kOWZmLTRlMGItOWQwYS0zODBhNWU3MTRmNmYiLCJ1dGkiOiJUUXJqNnJBemgwcUxjdGMwVm1nR0FBIiwidmVyIjoiMi4wIn0.TwkysbWJ58vG7_4snUSjrv78oqbfEUzfButUwCn_PIHjT9wZLbRK2VScLNNTMNKjL9lUV7p3YAOeDSMwkSb3p002BJZJS3-AYUepd8HnNOcej3jfPWGaYb1uZT4sV8s3eZyBHDWPjoEGjDfdKI-iyU8CHUtxLMrdXbyBjEKko1IftoNZLzmn5yN8ZwVzPjLzFYNuhdhcYQPZgRY8RIgkRVR43lNHMzMBCn08hnIDpcoslGaozTiYdEDwNzacva8UZInu5_exEt2MJKN_W48C83NuyDMJdcgqnII-3bSkdFpHqjz-YrPHwzuxEXNHS7ITQJJBrExfTjpwLl2wuFT9rQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/v1/corral/typeanimal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"corral",
+						"typeanimal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lista Animales",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Im5PbzNaRHJPRFhFSzFqS1doWHNsSFJfS1hFZyJ9.eyJhdWQiOiI4OTg0MWIxZS1lZWY2LTRmN2YtODA0ZS0yZjgwMTQ5ZDgzZGMiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vM2E3NDc5ZGItZDlmZi00ZTBiLTlkMGEtMzgwYTVlNzE0ZjZmL3YyLjAiLCJpYXQiOjE2MTYwOTY3NTMsIm5iZiI6MTYxNjA5Njc1MywiZXhwIjoxNjE2MTAwNjUzLCJhaW8iOiJBVFFBeS84VEFBQUFyL3kzaWRlM0JpQ3E0UTZIcmlNVXVNakNLek5WMGJsakMwRndnNzVrUU14c0g3V2ZtY0Y0WXBURm1UZFo2a1k5IiwibmFtZSI6Ikpob25hdGFuIFN0ZXZlbiBHb256YWxleiIsIm5vbmNlIjoiNDc2ODlkNjYtNjg2YS00YzljLTlhOTEtMGRiY2I0YzhlN2UwIiwib2lkIjoiYzgxMDlkOGMtNGUxMy00OTQyLTg0N2MtMWUxZTBjN2YxZDA4IiwicHJlZmVycmVkX3VzZXJuYW1lIjoiZ29uejExMTQ5OUBzaWlnby5jb20iLCJyaCI6IjAuQUFBQTIzbDBPdl9aQzA2ZENqZ0tYbkZQYng0YmhJbjI3bjlQZ0U0dmdCU2RnOXcwQUljLiIsInN1YiI6IlZXaVBOdnVTc0FrdzR4UVRnc2JndjhqaEJIMHNSSS15aXFIdzdNNExGNkkiLCJ0aWQiOiIzYTc0NzlkYi1kOWZmLTRlMGItOWQwYS0zODBhNWU3MTRmNmYiLCJ1dGkiOiJUUXJqNnJBemgwcUxjdGMwVm1nR0FBIiwidmVyIjoiMi4wIn0.TwkysbWJ58vG7_4snUSjrv78oqbfEUzfButUwCn_PIHjT9wZLbRK2VScLNNTMNKjL9lUV7p3YAOeDSMwkSb3p002BJZJS3-AYUepd8HnNOcej3jfPWGaYb1uZT4sV8s3eZyBHDWPjoEGjDfdKI-iyU8CHUtxLMrdXbyBjEKko1IftoNZLzmn5yN8ZwVzPjLzFYNuhdhcYQPZgRY8RIgkRVR43lNHMzMBCn08hnIDpcoslGaozTiYdEDwNzacva8UZInu5_exEt2MJKN_W48C83NuyDMJdcgqnII-3bSkdFpHqjz-YrPHwzuxEXNHS7ITQJJBrExfTjpwLl2wuFT9rQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/v1/animal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"animal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Corral",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"name\": \"Corral Prueba Postman\",\r\n  \"limit\": 10,\r\n  \"typeCode\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/v1/corral",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"corral"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Animal",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"name\": \"Animal Postman\",\r\n  \"edad\": 10,\r\n  \"typeCode\": 1,\r\n  \"corralCode\": 2,\r\n  \"isDangerous\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/v1/animal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"animal"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
