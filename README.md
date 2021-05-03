@@ -27,10 +27,10 @@ Este proyecto esta creado con .NetCore 5  y principios SOLID
 - Serilog(Centralizacion de Logs)
 - Dapper (Mapeo de entidades y envio de datos ala base de datos )
 
-##Token
-JWT
+## Token
+- JWT
 
-##Controladoras
+## Controladoras
 > Corral
 
 - Promedio(GET): http://localhost:5000/api/v1/corral/promedio/1
