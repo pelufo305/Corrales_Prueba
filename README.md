@@ -27,6 +27,14 @@ Este proyecto esta creado con .NetCore 5  y principios SOLID
 - Serilog(Centralizacion de Logs)
 - Dapper (Mapeo de entidades y envio de datos ala base de datos )
 
+## Archivos de configuración por Ambiente de despliegue 
+
+- appsettings.Development.json
+- appsettings.local.json
+- appsettings.Testing.json
+- appsettings.Production.json
+
+
 ## Token
 - JWT
 
